@@ -6,7 +6,7 @@ const file = 'mt5.png';
 
 const app = express();
 
-app.get('/', getScreen);
+app.get('/xmprint', getScreen);
 
 function sleep(ms) {
     return new Promise((resolve) => {
